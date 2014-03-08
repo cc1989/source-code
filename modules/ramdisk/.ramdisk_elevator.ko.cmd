@@ -1,0 +1,1 @@
+cmd_/root/modules/ramdisk/ramdisk_elevator.ko := ld -r -m elf_i386 -T /usr/src/linux-3.10.21/scripts/module-common.lds --build-id  -o /root/modules/ramdisk/ramdisk_elevator.ko /root/modules/ramdisk/ramdisk_elevator.o /root/modules/ramdisk/ramdisk_elevator.mod.o
