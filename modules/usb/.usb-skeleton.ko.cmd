@@ -1,0 +1,1 @@
+cmd_/root/modules/usb/usb-skeleton.ko := ld -r -m elf_i386 -T /usr/src/linux-3.10.21/scripts/module-common.lds --build-id  -o /root/modules/usb/usb-skeleton.ko /root/modules/usb/usb-skeleton.o /root/modules/usb/usb-skeleton.mod.o
